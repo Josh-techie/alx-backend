@@ -12,17 +12,19 @@
 
 ## Resources:
 
-1. [Cache replacement policies - FIFO](link_to_resource)
-2. [Cache replacement policies - LIFO](link_to_resource)
-3. [Cache replacement policies - LRU](link_to_resource)
-4. [Cache replacement policies - MRU](link_to_resource)
-5. [Cache replacement policies - LFU](link_to_resource)
+1. [Cache replacement policies - FIFO](https://en.wikipedia.org/wiki/Cache_replacement_policies#First_In_First_Out_%28FIFO%29)
+2. [Cache replacement policies - LIFO](https://en.wikipedia.org/wiki/Cache_replacement_policies#Last_In_First_Out_%28LIFO%29)
+3. [Cache replacement policies - LRU](https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_Recently_Used_%28LRU%29)
+4. [Cache replacement policies - MRU](https://en.wikipedia.org/wiki/Cache_replacement_policies#Most_Recently_Used_%28MRU%29)
+5. [Cache replacement policies - LFU](https://en.wikipedia.org/wiki/Cache_replacement_policies#Least-Frequently_Used_%28LFU%29)
+
+> Note: They all take you to Wikipedia, stay there and stay focused 😁
 
 ---
 
 > ### Setup:
 
-- All classes in this project must inherit from the BaseCaching class: [base_caching.py](./base_caching.py)
+- All classes in this project must inherit from the `BaseCaching` class: [base_caching.py](./base_caching.py)
 
 ---
 
