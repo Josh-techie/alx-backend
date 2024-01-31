@@ -27,6 +27,36 @@ Read or watch:
 
 ## Tasks:
 
+
+### 0. Simple helper function
+
+- Write a function named `index_range` that takes two integer arguments `page` and `page_size`.
+  - The function should return a tuple of size two containing a start index and an end index corresponding to the range of indexes to return in a list for those particular pagination parameters.
+
+  - Redirect to file: [0-simple_helper_function.py](./0-simple_helper_function.py)
+
+### 1. Simple pagination
+
+- Copy `index_range` from the previous task and the given `Server` class into your code.
+  - Implement a method named `get_page` that takes two integer arguments `page` with a default value of 1 and `page_size` with a default value of 10.
+
+  - Redirect to file: [1-simple_pagination.py](./1-simple_pagination.py)
+
+### 2. Hypermedia pagination
+
+- Replicate code from the previous task.
+  - Implement a `get_hyper` method that takes the same arguments (and defaults) as `get_page` and returns a dictionary containing specific key-value pairs related to hypermedia pagination.
+
+  - Redirect to file: [2-hypermedia_pagination.py](./2-hypermedia_pagination.py)
+
+### 3. Deletion-resilient hypermedia pagination
+
+- Start with the provided code.
+  - Implement a `get_hyper_index` method with two integer arguments: `index` with a `None` default value and `page_size` with a default value of 10.
+  - The method should return a dictionary with specific key-value pairs related to deletion-resilient hypermedia pagination.
+
+  - Redirect to file: [3-hypermedia_del_pagination.py](./3-hypermedia_del_pagination.py)
+
 ---
 
 ## Author
