@@ -30,6 +30,58 @@
 
 ## Tasks:
 
+
+### 0. Basic dictionary
+
+- Implement a class `BasicCache` that inherits from `BaseCaching` to create a simple caching system using a dictionary.
+- The caching system should not have a limit on the number of items it can store.
+- Implement `put` and `get` methods to add items to the cache and retrieve them.
+
+  - Redirect to file: [0-basic_cache.py](./0-basic_cache.py)
+
+### 1. FIFO caching
+
+- Implement a class `FIFOCache` that inherits from `BaseCaching` to create a caching system using the FIFO (First In, First Out) algorithm.
+- The caching system should discard the first item when the maximum number of items is reached.
+- Implement `put` and `get` methods.
+
+  - Redirect to file: [1-fifo_cache.py](./1-fifo_cache.py)
+
+### 2. LIFO Caching
+
+- Implement a class `LIFOCache` that inherits from `BaseCaching` to create a caching system using the LIFO (Last In, First Out) algorithm.
+- The caching system should discard the last item when the maximum number of items is reached.
+- Implement `put` and `get` methods.
+
+  - Redirect to file: [2-lifo_cache.py](./2-lifo_cache.py)
+
+### 3. LRU Caching
+
+- Implement a class `LRUCache` that inherits from `BaseCaching` to create a caching system using the LRU (Least Recently Used) algorithm.
+- The caching system should discard the least recently used item when the maximum number of items is reached.
+- Implement `put` and `get` methods.
+
+  - Redirect to file: [3-lru_cache.py](./3-lru_cache.py)
+
+### 4. MRU Caching
+
+- Implement a class `MRUCache` that inherits from `BaseCaching` to create a caching system using the MRU (Most Recently Used) algorithm.
+- The caching system should discard the most recently used item when the maximum number of items is reached.
+- Implement `put` and `get` methods.
+
+  - Redirect to file: [4-mru_cache.py](./4-mru_cache.py)
+
+> ### Advanced Tasks:
+
+5. **LFU Caching** - *Advanced*
+
+- Implement `LFUCache` class inheriting from `BaseCaching`.
+- Use LFU algorithm to discard least frequently used items.
+- Utilize LRU algorithm for tie-breaking.
+- Print `DISCARD: <key>` for each discarded item.
+
+- Redirect to file: [100-lfu_cache.py](./100-lfu_cache.py)
+
 ---
 
 ## Author
