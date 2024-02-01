@@ -73,7 +73,7 @@
 
 > ### Advanced Tasks:
 
-5. **LFU Caching** - *Advanced*
+5. **LFU Caching**
 
 - Implement `LFUCache` class inheriting from `BaseCaching`.
 - Use LFU algorithm to discard least frequently used items.
