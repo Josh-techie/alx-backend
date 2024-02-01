@@ -23,6 +23,7 @@
 ## Content table
 
 - [0x00](./0x00-pagination/) : 0x00. Pagination.
+- [0x01](./0x01-caching/) : 0x01. Caching.
 
 ---
 
