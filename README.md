@@ -14,20 +14,20 @@
 
 ---
 
-## About
+<h2> About </h2>
 
 - This repository is a comprehensive compilation of handling datasets efficiently projects completed as part of the [ALX Africa](https://www.alxafrica.com/) Full Stack Software Engineering course (Short Specializations 3 months long of the backend) in collaboration with [Holberton School](https://www.holbertonschool.com/) the projects cover a 3-month-long specialized backend program.
 
 ---
 
-## Content table
+<h2> Content table </h2>
 
 - [0x00](./0x00-pagination/) : 0x00. Pagination.
 - [0x01](./0x01-caching/) : 0x01. Caching.
 
 ---
 
-## Author
+<h2> Author </h2>
 
 - [`@Josh-techie`]() | Software Engineer Student
 
