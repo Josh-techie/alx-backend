@@ -22,7 +22,7 @@
 
 0. **Basic Flask app:**
 
-   - **Description:** Set up a basic Flask app in `0-app.py`. Create a single / route and an `index.html` template that outputs "Welcome to Holberton" as the page title (<title>) and "Hello world" as the header.
+   - **Description:** Set up a basic Flask app in `0-app.py`. Create a single / route and an `index.html` template that outputs "Welcome to Holberton" as the page title (<title>) and "Hello world" as the header. wtf
    - **File:** [0-app.py](./0-app.py), [templates/0-index.html](./templates/0-index.html)
 
 1. **Basic Babel setup:**
