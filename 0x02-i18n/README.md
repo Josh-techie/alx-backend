@@ -22,7 +22,7 @@
 
 0. **Basic Flask app:**
 
-   - **Description:** Set up a basic Flask app in `0-app.py`. Create a single / route and an `index.html` template that outputs "Welcome to Holberton" as the page title (<title>) and "Hello world" as the header (<h1>).
+   - **Description:** Set up a basic Flask app in `0-app.py`. Create a single / route and an `index.html` template that outputs "Welcome to Holberton" as the page title `(<title>)` and "Hello world" as the header.
    - **File:** [0-app.py](./0-app.py), [templates/0-index.html](./templates/0-index.html)
 
 1. **Basic Babel setup:**
@@ -38,7 +38,7 @@
 3. **Parametrize templates:**
 
    - **Description:** Use the `_` or `gettext` function to parametrize your templates. Use message IDs `home_title` and `home_header`. Create a `babel.cfg` file and initialize translations with pybabel. Edit translation files for English and French. Compile dictionaries and ensure correct messages show up on the home page.
-   - **Files:** [3-app.py](./3-app.py), [babel.cfg](./babel.cfg), [templates/3-index.html](./templates/3-index.html), [translations/en/LC_MESSAGES/messages.po](./translations/en/LC_MESSAGES/messages.po), [translations/fr/LC_MESSAGES/messages.po](./translations/fr/LC_MESSAGES/messages.po), [translations/en/LC_MESSAGES/messages.mo](./translations/en/LC_MESSAGES/messages.mo), [translations/fr/LC_MESSAGES/messages.mo](./translations/fr/LC_MESSAGES/messages.mo)
+   - **Files:** [3-app.py](./3-app.py), [templates/3-index.html](./templates/3-index.html)
 
 4. **Force locale with URL parameter:**
 
@@ -65,7 +65,7 @@
 8. **Display the current time:**
 
    - **Description:** Display the current time on the home page based on the inferred time zone in the default format. Use translations for the message ID `current_time_is`. The time should be displayed in the format like "Jan 21, 2020, 5:55:39 AM" or "21 janv. 2020 à 05:56:28" depending on the selected language.
-   - **Files:** [app.py](./app.py), [templates/index.html](./templates/index.html), [translations/en/LC_MESSAGES/messages.po](./translations/en/LC_MESSAGES/messages.po), [translations/fr/LC_MESSAGES/messages.po](./translations/fr/LC_MESSAGES/messages.po)
+   - **Files:** [app.py](./app.py), [templates/index.html](./templates/index.html)
 
 ---
 
