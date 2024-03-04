@@ -21,7 +21,7 @@
 
 <h2> Requirements</h2>
 
-- In this project you'll the following: `[package.json]`(./package.json), `[.babelrc]`(./.babelrc) and finally don't forget to run `npm i`.
+- In this project you'll the following: [`package.json`](./package.json), [`.babelrc`](./.babelrc) and finally don't forget to run `npm i`.
 
 ---
 
